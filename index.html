@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Trabalho 2 - Classe de Vetor</title>
+  </head>
+  <body>
+    <label>Digite as coordenadas do primeiro vetor</label><br />
+    <label>X</label><input type="text" id="primeiroX" />
+    <label>Y</label><input type="text" id="primeiroY"/>
+    <label>Z</label><input type="text" id="primeiroZ"/><br /><br />
+
+    <label>Digite as coordenadas do Segundo vetor</label> <br />
+    <label>X</label><input type="text" id="segundoX" />
+    <label>Y</label><input type="text" id="segundoY"/>
+    <label>Z</label><input type="text" id="segundoZ"/><br /><br />
+
+    <label>Digite um escalar </label><input type="text" id="escalar" />
+    <br /><br />
+    <button onclick="cal()">Calcular</button>
+    <hr />
+    <div>
+      <p>
+        Resultados
+      </p>
+      <text>Magnitude do primeiro vetor: </text> <text id="mag"></text><br />
+      <text>Norma do primeiro vetor: </text> <text id="norma"></text>
+      <hr />
+      <p>
+        Operacoes com os dois vetores
+      </p>
+      <text>Soma: </text><text id="soma"></text><br />
+      <text>Substracao: </text><text id="subtr"></text><br />
+      <text>Multiplicacao: </text><text id="mult"></text><br />
+      <text>Divisao: </text><text id="div"></text><br />
+      <text>Produto Escalar: </text><text id="prodEscalar"></text><br />
+      <text>Produto Vetorial: </text><text id="prodVetorial"></text><br />
+      <text>Projeção do primeiro angulo sobre o segundo</text><text id="proj"></text><br />
+      <text>Angulo: </text><text id="angulo"></text><br />
+      <hr />
+      <p>
+        Operacoes com o escalar
+      </p>
+      <text>Multiplicacao pelo escalar: </text><text id="multEscalar"></text><br />
+      <text>Divisao pelo escalar: </text><text id="divEscalar"></text><br />
+    </div>
+    <script src="./Vector3.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
